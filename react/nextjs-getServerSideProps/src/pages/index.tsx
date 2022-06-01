@@ -1,10 +1,10 @@
-import Link from "next/link";
+import Navigation from "../components/Navigation";
 
 const MainPage = () => {
   return (
     <div>
       <h1>Hello Main!</h1>
-      <Link href="/about">/about</Link>
+      <Navigation />
     </div>
   );
 };
